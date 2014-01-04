@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Strictly Typed Properties for JavaScript"
+title: "Strongly Typed Properties for JavaScript"
 description: ""
 category: 
-tags: [javascript, strict typing]
+tags: [javascript, strong typing]
 ---
 {% include JB/setup %}
 
@@ -59,7 +59,7 @@ Consider the example with the sprite:
     sprite.x = "Hello, world!"; // Passed without complaints
     sprite.y = sprite.somethingUndefined / 10; // Exception is thrown
 
-...and suddenly you have an object with a strictly typed property.
+...and suddenly you have an object with a strongly typed property.
 
 Wrapping this in a function would look something like:
 
@@ -110,3 +110,6 @@ Yes, you can have colons in property names. The part after the colon is stripped
 Use my library if you want to: [git@github.com:zufallsgenerator/cbclass.git](https://github.com/zufallsgenerator/cbclass), but you probably have itchy finger to build your own.
 
 Happy coding!
+
+
+_Edit: strictly typed -> strongly typed_
