@@ -28,7 +28,7 @@ checks everywhere. However, it's just after-the-facts-checking and it didn't tel
 ### The Solution
 
 Enter [Object.defineProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty). Most browsers support this feature today. When constructing an object, you can create a property
-with a getter and setter that acts just like a normal variable, but you have to opportunity to inspect the value. If you wanna apply this to a class, apply it to the prototype.
+with a getter and setter that acts just like a normal variable, but you have the opportunity to inspect the value. If you wanna apply this to a class, apply it to the prototype.
 Consider the example with the sprite:
 
     // Class definition
@@ -113,3 +113,4 @@ Happy coding!
 
 
 _Edit: strictly typed -> strongly typed_
+_Edit: fixed typo_
