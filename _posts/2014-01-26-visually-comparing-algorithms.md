@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Quadtree vs Spatial Hashing - Visually Comparing Algorithms"
-description: ""
+title: "Quadtree vs Spatial Hashing"
+description: "Quadtree vs Spatial Hashing - Visually Comparing Algorithms"
 category: 
 tags: []
 ---
