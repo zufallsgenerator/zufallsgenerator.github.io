@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Quadtree vs Spatial Hashing - a Visualization"
-description: "Quadtree vs Spatial Hashing - a Visualization
+description: "Quadtree vs Spatial Hashing - a Visualization"
 category: 
-tags: []
+tags: [quadtree, spatial hashing, visualization, javascript]
 ---
 {% include JB/setup %}
 
