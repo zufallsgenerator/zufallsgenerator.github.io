@@ -61,3 +61,4 @@ What I don't measure is actual cpu time used, but this gives a pretty good hint 
 
 * [Timo Hausman's quadtree implementation](https://github.com/timohausmann/quadtree-js/)
 * [My spatial hashing implementation](/assets/code/2014-01-26/spatialhash/spatialhash.js) (doesn't have its own github repo yet): 
+
