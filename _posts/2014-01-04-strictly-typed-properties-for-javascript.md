@@ -114,3 +114,4 @@ Happy coding!
 
 _Edit: strictly typed -> strongly typed_
 _Edit: fixed typo_
+_Edit: fixed http -> https
