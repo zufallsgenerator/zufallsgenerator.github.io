@@ -28,7 +28,7 @@ The bottle neck was, as I had anticipated, the collision handling. By checking e
 you get a nasty non-linear complexity.
 
 An old problem, of course, but I didn't quite know what the solution would be, so I started googling. One approach I stumpled upon first
-was the [quadtree](http://en.wikipedia.org/wiki/Quadtree) data structure (see the wikipedia link for an explanation). I tried a few implementations, but I found the simplest was [one by Timo Hausmann](https://github.com/timohausmann/quadtree-js/).
+was the [quadtree](https://en.wikipedia.org/wiki/Quadtree) data structure (see the wikipedia link for an explanation). I tried a few implementations, but I found the simplest was [one by Timo Hausmann](https://github.com/timohausmann/quadtree-js/).
 Unfortunately it didn't seem to reduce the number of collisions checks very much. But why was it slow?
 
 One hack I used to reduce the number of collisions was to limit the number of collided objects per object to 2 or 3. This increased the speed,
@@ -37,7 +37,7 @@ but made the collision detection inaccurate.
 Timo had the good taste to include an excellent visualization of the algorithm in the github repo.
 His visualization shows a green square (following the mouse pointer) and highlights all the squares that it is collision checked against.
 
-After some googling for alternatives I decided to try [spatial hashing](http://www.gamedev.net/page/resources/_/technical/game-programming/spatial-hashing-r2697). I implemented one spatial hash using the same interface as Timo's quadtree implementation. I could then save myself a lot of work
+After some googling for alternatives I decided to try [spatial hashing](https://www.gamedev.net/page/resources/_/technical/game-programming/spatial-hashing-r2697). I implemented one spatial hash using the same interface as Timo's quadtree implementation. I could then save myself a lot of work
 by retrofitting his visualization for my spatial hashing implementation.
 
 Now I could easily compare both algorithms. To me, was pretty obvious that spatial hashing was more efficient.
@@ -61,4 +61,3 @@ What I don't measure is actual cpu time used, but this gives a pretty good hint 
 
 * [Timo Hausman's quadtree implementation](https://github.com/timohausmann/quadtree-js/)
 * [My spatial hashing implementation](/assets/code/2014-01-26/spatialhash/spatialhash.js) (doesn't have its own github repo yet): 
-
